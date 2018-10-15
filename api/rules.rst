@@ -3,6 +3,6 @@ Rules
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: core.rules
+   :modules: rules
    :groupby: view
    :order: path

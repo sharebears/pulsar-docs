@@ -3,7 +3,7 @@ Users
 
 .. qrefflask:: app:create_app('config.py')
    :undoc-static:
-   :blueprints: users
+   :blueprints: users.routes
    :order: path
 
 API Keys
@@ -15,7 +15,7 @@ To authenticate with an API key, send it in the request header as
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: core.users.api_keys
+   :modules: core.users.routes.api_keys
    :groupby: view
    :order: path
 
@@ -24,7 +24,7 @@ Invites
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: core.users.invites
+   :modules: core.users.routes.invites
    :groupby: view
    :order: path
 
@@ -33,7 +33,7 @@ Settings
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: core.users.settings
+   :modules: core.users.routes.settings
    :groupby: view
    :order: path
 
@@ -42,7 +42,7 @@ Users
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: core.users.users
+   :modules: core.users.routes.users
    :groupby: view
    :order: path
 
@@ -51,6 +51,6 @@ Moderation
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: core.users.moderate
+   :modules: core.users.routes.moderate
    :groupby: view
    :order: path

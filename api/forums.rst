@@ -3,7 +3,7 @@ Forums
 
 .. qrefflask:: app:create_app('config.py')
    :undoc-static:
-   :blueprints: forums
+   :blueprints: forums.routes
    :order: path
 
 Categories
@@ -11,7 +11,7 @@ Categories
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: forums.categories
+   :modules: forums.routes.categories
    :groupby: view
    :order: path
 
@@ -20,7 +20,7 @@ Forums
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: forums.forums
+   :modules: forums.routes.forums
    :groupby: view
    :order: path
 
@@ -29,7 +29,7 @@ Threads
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: forums.threads
+   :modules: forums.routes.threads
    :groupby: view
    :order: path
 
@@ -38,7 +38,7 @@ Posts
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: forums.posts
+   :modules: forums.routes.posts
    :groupby: view
    :order: path
 
@@ -47,6 +47,6 @@ Polls
 
 .. autoflask:: app:create_app('config.py')
    :undoc-static:
-   :modules: forums.polls
+   :modules: forums.routes.polls
    :groupby: view
    :order: path
