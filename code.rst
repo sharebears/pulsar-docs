@@ -286,7 +286,7 @@ Before
 ^^^^^^
 
 Before relaying the request to its proper controller, check the authentication of the 
-requester, via API key. If the requester has the ``no_ip_history`` permission, set their 
+requester, via API key. If the requester has the ``site_no_ip_history`` permission, set their 
 IP to ``0.0.0.0``. 
 
 .. automodule:: core.hooks.before

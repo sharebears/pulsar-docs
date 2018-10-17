@@ -13,8 +13,8 @@ APIKey
     "last_used": "1970-01-01T00:00:00.000001+00:00",
     "user-agent": "curl/7.59.0",
     "permissions": [
-      "view_api_keys",
-      "send_invites"
+      "api_keys_view",
+      "invites_send"
     ]
   }
 
