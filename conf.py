@@ -103,13 +103,7 @@ html_show_sourcelink = False
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-html_sidebars = {
-    '**': [
-        'about.html',
-        'navigation.html',
-        'searchbox.html',
-    ]
-}
+html_sidebars = {'**': ['about.html', 'navigation.html', 'searchbox.html']}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
@@ -124,15 +118,12 @@ latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
-
     # The font size ('10pt', '11pt' or '12pt').
     #
     # 'pointsize': '10pt',
-
     # Additional stuff for the LaTeX preamble.
     #
     # 'preamble': '',
-
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
@@ -142,8 +133,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'core.tex', 'pulsar Documentation',
-     'lights', 'manual'),
+    (master_doc, 'core.tex', 'pulsar Documentation', 'lights', 'manual')
 ]
 
 
@@ -151,10 +141,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'pulsar', 'pulsar Documentation',
-     [author], 1)
-]
+man_pages = [(master_doc, 'pulsar', 'pulsar Documentation', [author], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------------
@@ -163,9 +150,15 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'pulsar', 'pulsar Documentation',
-     author, 'pulsar', 'One line description of project.',
-     'Miscellaneous'),
+    (
+        master_doc,
+        'pulsar',
+        'pulsar Documentation',
+        author,
+        'pulsar',
+        'One line description of project.',
+        'Miscellaneous',
+    )
 ]
 
 
@@ -173,7 +166,7 @@ texinfo_documents = [
 
 autodoc_default_options = {
     'special-members': '__init__',
-    'exclude-members': '__weakref__'
+    'exclude-members': '__weakref__',
 }
 
 # -- Extension configuration -------------------------------------------------
