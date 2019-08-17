@@ -7,6 +7,5 @@ A BitTorrent indexer API written in python using the Flask micro-framework.
 
    api/index
    objects/index
-   style
    code
    models

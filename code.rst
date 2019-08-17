@@ -240,12 +240,6 @@ all models of a certain nature.
     :special-members:
     :private-members:
 
-.. automodule:: core.mixins.permission
-    :members:
-    :show-inheritance:
-    :special-members:
-    :private-members:
-
 JSON Serialization
 ------------------
 

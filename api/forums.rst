@@ -1,7 +1,7 @@
 Forums
 ======
 
-.. qrefflask:: app:create_app('config.py')
+.. qrefflask:: wsgi:create_app('config.py')
    :undoc-static:
    :blueprints: forums.routes
    :order: path
@@ -9,7 +9,7 @@ Forums
 Categories
 ----------
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: forums.routes.categories
    :groupby: view
@@ -18,7 +18,7 @@ Categories
 Forums
 ------
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: forums.routes.forums
    :groupby: view
@@ -27,7 +27,7 @@ Forums
 Threads
 -------
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: forums.routes.threads
    :groupby: view
@@ -36,7 +36,7 @@ Threads
 Posts
 -----
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: forums.routes.posts
    :groupby: view
@@ -45,7 +45,7 @@ Posts
 Polls
 -----
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: forums.routes.polls
    :groupby: view

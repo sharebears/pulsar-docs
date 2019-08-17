@@ -1,7 +1,7 @@
 Users
 =====
 
-.. qrefflask:: app:create_app('config.py')
+.. qrefflask:: wsgi:create_app('config.py')
    :undoc-static:
    :blueprints: users.routes
    :order: path
@@ -13,7 +13,7 @@ request, and must be manually granted permissions (blank for full permissions).
 To authenticate with an API key, send it in the request header as
 ``Authorization: Token a-long-api-key``.
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: core.users.routes.api_keys
    :groupby: view
@@ -22,7 +22,7 @@ To authenticate with an API key, send it in the request header as
 Invites
 -------
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: core.users.routes.invites
    :groupby: view
@@ -31,7 +31,7 @@ Invites
 Settings
 --------
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: core.users.routes.settings
    :groupby: view
@@ -40,7 +40,7 @@ Settings
 Users
 -----
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: core.users.routes.users
    :groupby: view
@@ -49,7 +49,7 @@ Users
 Moderation
 ----------
 
-.. autoflask:: app:create_app('config.py')
+.. autoflask:: wsgi:create_app('config.py')
    :undoc-static:
    :modules: core.users.routes.moderate
    :groupby: view
